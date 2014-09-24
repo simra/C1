@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30723.0
+VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "xor", "xor\xor.fsproj", "{C9372181-4EB8-435C-8D0A-C2BD73A272ED}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ngrams", "ngrams\ngrams.fsproj", "{B20ECED5-5219-4B7D-BAF0-F11B8C9996AB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{C9372181-4EB8-435C-8D0A-C2BD73A272ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9372181-4EB8-435C-8D0A-C2BD73A272ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9372181-4EB8-435C-8D0A-C2BD73A272ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B20ECED5-5219-4B7D-BAF0-F11B8C9996AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B20ECED5-5219-4B7D-BAF0-F11B8C9996AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B20ECED5-5219-4B7D-BAF0-F11B8C9996AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B20ECED5-5219-4B7D-BAF0-F11B8C9996AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

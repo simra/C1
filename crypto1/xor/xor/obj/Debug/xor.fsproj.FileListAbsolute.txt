@@ -6,3 +6,11 @@ c:\users\simra\documents\coursera\crypto1\xor\xor\bin\Debug\FSharp.Core.dll
 c:\users\simra\documents\coursera\crypto1\xor\xor\bin\Debug\FSharp.Core.xml
 c:\users\simra\documents\coursera\crypto1\xor\xor\obj\Debug\xor.exe
 c:\users\simra\documents\coursera\crypto1\xor\xor\obj\Debug\xor.pdb
+C:\GitHub\C1\crypto1\xor\xor\bin\Debug\xor.exe.config
+C:\GitHub\C1\crypto1\xor\xor\bin\Debug\xor.XML
+C:\GitHub\C1\crypto1\xor\xor\bin\Debug\xor.exe
+C:\GitHub\C1\crypto1\xor\xor\bin\Debug\xor.pdb
+C:\GitHub\C1\crypto1\xor\xor\bin\Debug\FSharp.Core.dll
+C:\GitHub\C1\crypto1\xor\xor\bin\Debug\FSharp.Core.xml
+C:\GitHub\C1\crypto1\xor\xor\obj\Debug\xor.exe
+C:\GitHub\C1\crypto1\xor\xor\obj\Debug\xor.pdb

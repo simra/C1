@@ -5,14 +5,14 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>c9372181-4eb8-435c-8d0a-c2bd73a272ed</ProjectGuid>
+    <ProjectGuid>b20eced5-5219-4b7d-baf0-f11b8c9996ab</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>xor</RootNamespace>
-    <AssemblyName>xor</AssemblyName>
+    <RootNamespace>ngrams</RootNamespace>
+    <AssemblyName>ngrams</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <TargetFSharpCoreVersion>4.3.1.0</TargetFSharpCoreVersion>
-    <Name>xor</Name>
+    <Name>ngrams</Name>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -23,10 +23,8 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <WarningLevel>3</WarningLevel>
     <PlatformTarget>AnyCPU</PlatformTarget>
-    <DocumentationFile>bin\Debug\xor.XML</DocumentationFile>
+    <DocumentationFile>bin\Debug\ngrams.XML</DocumentationFile>
     <Prefer32Bit>true</Prefer32Bit>
-    <StartArguments>cyphertexts.txt letterfreq.txt</StartArguments>
-    <StartWorkingDirectory>C:\GitHub\C1\crypto1\xor\xor\</StartWorkingDirectory>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -36,7 +34,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <WarningLevel>3</WarningLevel>
     <PlatformTarget>AnyCPU</PlatformTarget>
-    <DocumentationFile>bin\Release\xor.XML</DocumentationFile>
+    <DocumentationFile>bin\Release\ngrams.XML</DocumentationFile>
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
