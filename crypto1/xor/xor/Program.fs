@@ -225,3 +225,57 @@ let main argv =
    // |> Seq.iter (printAssignment 1)
    
     0 // return an integer exit code
+
+
+    (*
+open System;
+let PRG key = new Random(key)
+
+let toStringFmt (fmt:Printf.TextWriterFormat<_->unit>) (m:seq<int>)  :string =
+    Seq.map (printf fmt) m |> (fun x -> String.Join("",x))
+
+let toHexString (m:seq<int>) : string =
+    Seq.map (printf "%X") m |> (fun x -> String.Join("",x))
+let toString (m:seq<int>) : string =
+    Seq.map (fun c -> printf "%c" (char c)) m |> (fun x -> String.Join("",x))
+
+let messageTobyteStream (message:string) : seq<int> = 
+   seq{ for i in {0..message.Length-1} do yield (int message.[i])}
+
+
+
+L = 01100 00001 00001
+    01110 01110 01110
+    00010 01111 01111
+        B     O     O
+
+    01000 01111 01000 01111 01000 01111
+    01110 01110 01110 01110 01110 01110
+    00110 00001 00110 00001 00110 00001
+        F     A     F     A     F     A
+
+
+
+
+let encrypt PRG
+    *)
+
+
+(*
+open System.IO
+open System.Security.Cryptography
+let EncryptStringToBytesAes (plainText : string) (key : byte[]) (iv : byte[]) =
+    use aesAlg = Aes.Create()
+    aesAlg.Key <- key
+    aesAlg.IV <- iv
+    // Create a decrytor to perform the stream transform.
+    let encryptor = aesAlg.CreateEncryptor(aesAlg.Key, aesAlg.IV)
+    // Create the streams used for encryption. 
+    use msEncrypt = new MemoryStream()
+    (
+        use csEncrypt = new CryptoStream(msEncrypt, encryptor, CryptoStreamMode.Write)
+        use swEncrypt = new StreamWriter(csEncrypt)
+        swEncrypt.Write(plainText)
+    )
+    msEncrypt.ToArray()
+    *)

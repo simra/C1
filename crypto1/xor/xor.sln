@@ -7,6 +7,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "xor", "xor\xor.fsproj", "{C
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ngrams", "ngrams\ngrams.fsproj", "{B20ECED5-5219-4B7D-BAF0-F11B8C9996AB}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "AES", "AES\AES.fsproj", "{747E945A-978A-405B-8C96-F68175461870}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{B20ECED5-5219-4B7D-BAF0-F11B8C9996AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B20ECED5-5219-4B7D-BAF0-F11B8C9996AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B20ECED5-5219-4B7D-BAF0-F11B8C9996AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{747E945A-978A-405B-8C96-F68175461870}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{747E945A-978A-405B-8C96-F68175461870}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{747E945A-978A-405B-8C96-F68175461870}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{747E945A-978A-405B-8C96-F68175461870}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
